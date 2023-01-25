@@ -11,9 +11,7 @@ function th() {
     simple.addEventListener("click", focusOnSpan);
     hex.addEventListener("click", focusOnSpan);
 
-    button.addEventListener("click", () => {
-        if(simple){}
-});
+    button.addEventListener("click", randomgHEXGenerator);
 
     function focusOnSpan() {
         this.classList.toggle("text-blue-900");
